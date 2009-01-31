@@ -1,0 +1,16 @@
+This is a simple version of HelloCreature Mailer for php.  
+
+Instructions:
+
+1) Set up your HelloCreature account at hellocreature.com
+
+2) Click on "setup instructions" and find your API Key.
+
+3) Require hcmailer.php in your script.
+
+4) Substitute hellocreature_mail() for PHP's built-in mail() function.
+
+Notes:
+
+If you are sending HTML email, please be sure to pass in a content-type 
+header.
